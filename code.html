@@ -1,0 +1,729 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width, initial-scale=1.0" name="viewport"/><meta content="web_standard" name="shell-type"/><link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" rel="stylesheet"/><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=Playfair+Display:wght@500;600;700&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/><style>@layer base{html,body{margin:0;padding:0;}body{overscroll-behavior:none;}main>:first-child{margin-top:0!important;}main>:last-child{margin-bottom:0!important;}}::-webkit-scrollbar{display:none;}</style><script src="https://cdn.tailwindcss.com"></script><script id="tailwind-config">tailwind.config={darkMode:"class",theme:{extend:{colors:{"surface-variant":"#2d344c","surface-dim":"#0b1229","outline-variant":"#3b4a48","secondary-fixed-dim":"#ffb4a8","error":"#ffb4ab","surface-container-lowest":"#060d24","surface":"#0b1229","surface-container-highest":"#2d344c","on-secondary":"#690000","on-tertiary":"#1b2d5f","on-primary-container":"#005651","tertiary":"#cfd8ff","secondary-container":"#8c170e","on-primary":"#003733","on-primary-fixed-variant":"#00504b","tertiary-fixed":"#dbe1ff","outline":"#849491","on-background":"#dce1ff","error-container":"#93000a","primary-container":"#00d4c8","primary":"#47f1e4","inverse-surface":"#dce1ff","background":"#0b1229","surface-bright":"#323851","surface-container-high":"#222941","on-error-container":"#ffdad6","on-primary-fixed":"#00201e","secondary":"#ffb4a8","inverse-primary":"#006a64","on-tertiary-container":"#3a4a7e","on-tertiary-fixed-variant":"#334477","on-secondary-fixed-variant":"#8c170e","surface-container-low":"#141a32","secondary-fixed":"#ffdad4","on-surface-variant":"#bacac7","tertiary-container":"#abbcf7","on-surface":"#dce1ff","primary-fixed-dim":"#24ddd1","primary-fixed":"#54faed","on-secondary-fixed":"#410000","surface-tint":"#24ddd1","inverse-on-surface":"#292f48","on-tertiary-fixed":"#02174a","on-error":"#690005","tertiary-fixed-dim":"#b4c5ff","surface-container":"#181e36","on-secondary-container":"#ff9a8a"},borderRadius:{"DEFAULT":"0.25rem","lg":"0.5rem","xl":"0.75rem","full":"9999px"},spacing:{"margin-mobile":"1.25rem","gutter":"1.5rem","margin":"3rem","gutter-mobile":"1rem","space-xl":"2.5rem","space-md":"1rem","space-lg":"1.5rem","space-sm":"0.5rem","space-xs":"0.25rem"},fontFamily:{"display-hero":["Playfair Display"],"display-hero-mobile":["Playfair Display"],"label-md":["Inter"],"headline-sm":["Playfair Display"],"title-lg":["Inter"],"headline-md":["Playfair Display"],"body-md":["Inter"],"headline-lg":["Playfair Display"],"headline-lg-mobile":["Playfair Display"],"body-lg":["Inter"],"title-md":["Inter"],"label-sm":["Inter"]},fontSize:{"display-hero":["56px",{lineHeight:"68px",letterSpacing:"-0.02em",fontWeight:"600"}],"display-hero-mobile":["38px",{lineHeight:"46px",letterSpacing:"-0.01em",fontWeight:"600"}],"label-md":["12px",{lineHeight:"16px",letterSpacing:"0.06em",fontWeight:"500"}],"headline-sm":["22px",{lineHeight:"30px",fontWeight:"600"}],"title-lg":["18px",{lineHeight:"26px",letterSpacing:"-0.01em",fontWeight:"600"}],"headline-md":["28px",{lineHeight:"36px",fontWeight:"500"}],"body-md":["14px",{lineHeight:"22px",fontWeight:"400"}],"headline-lg":["40px",{lineHeight:"48px",letterSpacing:"-0.01em",fontWeight:"500"}],"headline-lg-mobile":["28px",{lineHeight:"36px",letterSpacing:"0em",fontWeight:"500"}],"body-lg":["16px",{lineHeight:"26px",fontWeight:"400"}],"title-md":["16px",{lineHeight:"24px",fontWeight:"500"}],"label-sm":["10px",{lineHeight:"14px",letterSpacing:"0.08em",fontWeight:"600"}]}}}};</script></head><body class="bg-background font-body-md text-on-surface antialiased selection:bg-primary-container selection:text-on-primary-container"><header class="fixed top-0 w-full z-50 bg-surface/70 backdrop-blur-xl border-b border-white/10"><div class="h-20 max-w-7xl mx-auto px-6 lg:px-12 flex items-center justify-between gap-6"><div class="flex items-center gap-8"><a class="flex items-center gap-3 group" data-path="flights" href="#"><img alt="WanderAI Luxury Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WHsDMfbG19WEnqNC7FEKNKiYKFqIpaleoN2EDn_jOCWsfxi917v4Ijhq-clCXgCLpKNBFHNxAfg_1SP3AKLXsOmoNcbgiZd6akpZn4bbi_K_qjawLqp2_5lFOGviC_lp1PO4hgsLNLytZnP1KAY2pH3hX3H_udFSYs33yDZO148qitGYL5Jgn-nPmmLu8ey-Ru4l4TURRACIvnKveHBNfXEg1S8ErlVmL1if7OUOHTdMsLLr6EJCYV5tA-"/><span class="font-headline-sm text-headline-sm text-on-surface tracking-tight font-display-hero">WanderAI</span></a><nav class="hidden md:flex items-center gap-8" data-active-classes="text-primary font-bold"><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="flights" href="#">Flights</a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="hotels" href="#">Hotels</a><a aria-current="page" class="relative inline-flex items-center gap-2 transition-colors text-primary font-bold" data-path="ai-planner" href="#"><span>AI Planner</span><span class="px-2 py-0.5 rounded-full text-label-sm font-label-sm bg-primary/10 border border-primary/40 text-primary shadow-[0_0_10px_rgba(71,241,228,0.3)]">New</span></a><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors" data-path="deals" href="#">Deals</a></nav></div><div class="flex items-center gap-4 lg:gap-6"><button class="hidden sm:flex items-center gap-2 px-3 py-1.5 rounded-full bg-surface-container-high/60 hover:bg-surface-container-highest text-on-surface-variant hover:text-on-surface transition-all text-body-md font-body-md" type="button"><span class="material-symbols-outlined text-[18px] text-primary">public</span><span>USD $ · EN</span></button><a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors px-2 py-1" data-path="sign-in" href="#">Sign In</a><a class="px-5 py-2.5 rounded-full bg-gradient-to-r from-secondary-container to-secondary text-on-background font-title-md text-title-md font-semibold hover:shadow-[0_0_24px_rgba(255,180,168,0.45)] transition-all duration-300" data-path="sign-up" href="#">Sign Up</a><div class="w-8 h-8 rounded-full bg-primary flex items-center justify-center"><span class="material-symbols-outlined text-on-primary text-[18px]">person</span></div></div></div></header><main class="w-full pt-20 bg-background min-h-screen"><div class="flex flex-col w-full">
+<!-- 1. FULL-SCREEN CINEMATIC HERO SECTION -->
+<section class="relative w-full min-h-[92vh] flex flex-col justify-between overflow-hidden -mt-20 pt-32 pb-24">
+<!-- Full-bleed Background with Deep Cinematic Scrim -->
+<div class="absolute inset-0 z-0">
+<img class="w-full h-full object-cover object-center scale-105 transform duration-1000" data-alt="An aerial high-altitude drone photograph of a lush tropical Maldivian island surrounded by turquoise coral lagoons and overwater luxury villas at warm golden hour sunset with crystalline water gradients." src="https://lh3.googleusercontent.com/aida-public/AB6AXuC9Yg5Mw_VDNVr4yr5kM9HMLX2HRy5M0kaTdT1FmIU64RcD6QJnv6O1yhXKrlDDvHn2N44IUOxQJmcecqHzqOJOsXnJdI4o0Ejzb02AGXy1fqsbgt90nOwBiwoLDRUk8B0xqJXAehgPVawsA63LbWBRPWXZv3ku2djyzCdRqvmhNbsc3h4tbDOd2swCt-Rgi9Wy1T6py6UKKrhZcgDYC0T6axoxxP8hQLLELagOXWCfKU_jJnAu6EkpyA"/>
+<div class="absolute inset-0 bg-gradient-to-b from-[#0b1229]/65 via-[#0b1229]/45 to-[#0b1229] mix-blend-multiply"></div>
+<div class="absolute inset-0 bg-radial-gradient from-transparent via-[#0b1229]/30 to-[#0b1229]"></div>
+</div>
+<!-- Hero Content -->
+<div class="relative z-10 max-w-6xl mx-auto px-6 text-center my-auto flex flex-col items-center">
+<!-- Ambient Badge -->
+<div class="inline-flex items-center gap-2.5 px-4 py-1.5 rounded-full bg-surface-container-high/60 backdrop-blur-xl shadow-lg mb-8">
+<span class="w-2 h-2 rounded-full bg-primary animate-pulse shadow-[0_0_8px_#47f1e4]"></span>
+<span class="font-label-md text-label-md tracking-wider text-primary uppercase">The Future of Autonomous Travel Intelligence</span>
+</div>
+<!-- Main Headline -->
+<h1 class="font-display-hero text-display-hero text-on-surface max-w-4xl tracking-tight mb-5 drop-shadow-md">
+        Where do you want to <span class="italic font-normal text-transparent bg-clip-text bg-gradient-to-r from-on-surface via-primary to-secondary">go next?</span>
+</h1>
+<!-- Editorial Subtext -->
+<p class="font-title-lg text-title-lg text-on-surface-variant max-w-2xl mx-auto mb-10 font-normal leading-relaxed">
+        Tell our sovereign AI your dream trip. We orchestrate, curate, and secure privileged bookings in seconds.
+      </p>
+<!-- Glass AI Prompt Bar -->
+<div class="w-full max-w-3xl rounded-2xl bg-surface-container-low/75 backdrop-blur-2xl p-2.5 shadow-2xl flex flex-col sm:flex-row items-center gap-3 transition-all hover:bg-surface-container-low/90">
+<div class="flex items-center gap-3 pl-3.5 flex-1 w-full">
+<span class="material-symbols-outlined text-primary text-[24px] select-none" style="font-variation-settings: 'FILL' 1;">auto_awesome</span>
+<input class="w-full bg-transparent text-on-surface placeholder:text-on-surface-variant/60 font-body-lg text-body-lg focus:outline-none" id="hero-ai-input" placeholder="5 days in Bali under ₹40,000, beaches and cafes..." type="text"/>
+</div>
+<button class="w-full sm:w-auto px-7 py-3.5 rounded-xl bg-gradient-to-r from-primary to-primary-container text-on-primary font-title-md text-title-md font-semibold shadow-lg hover:shadow-[0_0_24px_rgba(71,241,228,0.4)] transition-all flex items-center justify-center gap-2 flex-shrink-0 cursor-pointer" onclick="triggerAIPlan()" type="button">
+<span>Plan with AI</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+</div>
+<!-- Suggestion Chips -->
+<div class="flex flex-wrap items-center justify-center gap-2.5 mt-5">
+<button class="px-4 py-1.5 rounded-full bg-surface-container-high/40 hover:bg-surface-container-high/70 backdrop-blur-md text-on-surface-variant hover:text-on-surface font-body-md text-body-md transition-colors flex items-center gap-1.5 cursor-pointer" onclick="fillPrompt('7 days luxury romantic getaway in Amalfi &amp; Capri with private boat')">
+<span class="text-secondary">✦</span> Romantic getaway
+        </button>
+<button class="px-4 py-1.5 rounded-full bg-surface-container-high/40 hover:bg-surface-container-high/70 backdrop-blur-md text-on-surface-variant hover:text-on-surface font-body-md text-body-md transition-colors flex items-center gap-1.5 cursor-pointer" onclick="fillPrompt('5 days family retreat in Bali with private beachfront villa &amp; chef')">
+<span>🌴</span> Family trip
+        </button>
+<button class="px-4 py-1.5 rounded-full bg-surface-container-high/40 hover:bg-surface-container-high/70 backdrop-blur-md text-on-surface-variant hover:text-on-surface font-body-md text-body-md transition-colors flex items-center gap-1.5 cursor-pointer" onclick="fillPrompt('10 days solo cultural &amp; culinary exploration across Tokyo &amp; Kyoto')">
+<span>🎒</span> Solo adventure
+        </button>
+<button class="px-4 py-1.5 rounded-full bg-surface-container-high/40 hover:bg-surface-container-high/70 backdrop-blur-md text-on-surface-variant hover:text-on-surface font-body-md text-body-md transition-colors flex items-center gap-1.5 cursor-pointer" onclick="fillPrompt('Weekend escape to Dubai with rooftop dining &amp; desert safari under ₹50,000')">
+<span class="text-primary">⚡</span> Budget weekend
+        </button>
+</div>
+</div>
+</section>
+<!-- 2. FLOATING GLASS BOOKING ENGINE (Overlapping Hero) -->
+<section class="relative z-20 max-w-6xl mx-auto w-full px-6 -mt-14 mb-16">
+<div class="rounded-3xl bg-surface-container/90 backdrop-blur-2xl p-6 lg:p-8 shadow-2xl">
+<!-- Tabs -->
+<div class="flex items-center gap-8 mb-6">
+<button class="flex items-center gap-2 pb-3 font-title-md text-title-md font-semibold text-primary shadow-[inset_0_-2px_0_0_#47f1e4]" type="button">
+<span class="material-symbols-outlined text-[20px]">flight_takeoff</span>
+<span>Flights</span>
+</button>
+<button class="flex items-center gap-2 pb-3 font-title-md text-title-md font-medium text-on-surface-variant hover:text-on-surface transition-colors" type="button">
+<span class="material-symbols-outlined text-[20px]">hotel</span>
+<span>Hotels</span>
+</button>
+<button class="flex items-center gap-2 pb-3 font-title-md text-title-md font-medium text-on-surface-variant hover:text-on-surface transition-colors" type="button">
+<span class="material-symbols-outlined text-[20px]">travel</span>
+<span>Curated Packages</span>
+</button>
+</div>
+<!-- Booking Input Grid -->
+<div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-5 gap-3.5 items-center">
+<!-- Field 1: From -->
+<div class="p-3.5 rounded-2xl bg-surface-container-high/70 hover:bg-surface-container-high transition-colors cursor-pointer group">
+<p class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant group-hover:text-primary transition-colors flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[14px]">flight_takeoff</span>
+<span>Departure</span>
+</p>
+<p class="font-title-lg text-title-lg font-bold text-on-surface mt-1">New Delhi, DEL</p>
+<p class="font-label-md text-label-md text-on-surface-variant truncate">Indira Gandhi Intl Airport</p>
+</div>
+<!-- Field 2: To -->
+<div class="p-3.5 rounded-2xl bg-surface-container-high/70 hover:bg-surface-container-high transition-colors cursor-pointer group">
+<p class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant group-hover:text-primary transition-colors flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[14px]">flight_land</span>
+<span>Destination</span>
+</p>
+<p class="font-title-lg text-title-lg font-bold text-on-surface mt-1">Denpasar Bali, DPS</p>
+<p class="font-label-md text-label-md text-on-surface-variant truncate">Ngurah Rai Intl Airport</p>
+</div>
+<!-- Field 3: Dates -->
+<div class="p-3.5 rounded-2xl bg-surface-container-high/70 hover:bg-surface-container-high transition-colors cursor-pointer group">
+<p class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant group-hover:text-primary transition-colors flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[14px]">calendar_today</span>
+<span>Travel Window</span>
+</p>
+<p class="font-title-lg text-title-lg font-bold text-on-surface mt-1">14 Oct – 21 Oct</p>
+<p class="font-label-md text-label-md text-on-surface-variant">7 nights · Autumn Peak</p>
+</div>
+<!-- Field 4: Travelers -->
+<div class="p-3.5 rounded-2xl bg-surface-container-high/70 hover:bg-surface-container-high transition-colors cursor-pointer group">
+<p class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant group-hover:text-primary transition-colors flex items-center gap-1.5">
+<span class="material-symbols-outlined text-[14px]">group</span>
+<span>Guests &amp; Class</span>
+</p>
+<p class="font-title-lg text-title-lg font-bold text-on-surface mt-1">2 Adults, 1 Suite</p>
+<p class="font-label-md text-label-md text-on-surface-variant">Premium Economy</p>
+</div>
+<!-- Search CTA -->
+<button class="h-full min-h-[64px] rounded-2xl bg-gradient-to-r from-secondary-container to-secondary text-on-background font-title-md text-title-md font-semibold shadow-lg hover:shadow-[0_0_24px_rgba(255,180,168,0.45)] transition-all flex items-center justify-center gap-2 cursor-pointer" type="button">
+<span class="material-symbols-outlined text-[20px]">search</span>
+<span>Find Itinerary</span>
+</button>
+</div>
+</div>
+</section>
+<!-- 3. STATS STRIP -->
+<section class="max-w-6xl mx-auto w-full px-6 mb-24">
+<div class="grid grid-cols-2 md:grid-cols-4 gap-4 p-6 rounded-2xl bg-surface-container-lowest shadow-sm">
+<div class="flex items-center gap-4 px-3">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-[26px]">public</span>
+</div>
+<div>
+<p class="font-headline-sm text-headline-sm font-display-hero text-on-surface">2M+</p>
+<p class="font-label-md text-label-md text-on-surface-variant">Travelers Worldwide</p>
+</div>
+</div>
+<div class="flex items-center gap-4 px-3">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-[26px]">travel_explore</span>
+</div>
+<div>
+<p class="font-headline-sm text-headline-sm font-display-hero text-on-surface">190+</p>
+<p class="font-label-md text-label-md text-on-surface-variant">Countries Covered</p>
+</div>
+</div>
+<div class="flex items-center gap-4 px-3">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-secondary flex-shrink-0">
+<span class="material-symbols-outlined text-[26px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<div>
+<p class="font-headline-sm text-headline-sm font-display-hero text-on-surface">4.96 ★</p>
+<p class="font-label-md text-label-md text-on-surface-variant">48,200+ Verified Reviews</p>
+</div>
+</div>
+<div class="flex items-center gap-4 px-3">
+<div class="w-12 h-12 rounded-xl bg-surface-container flex items-center justify-center text-primary flex-shrink-0">
+<span class="material-symbols-outlined text-[26px]">verified</span>
+</div>
+<div>
+<p class="font-headline-sm text-headline-sm font-display-hero text-on-surface">99.4%</p>
+<p class="font-label-md text-label-md text-on-surface-variant">Price Match Accuracy</p>
+</div>
+</div>
+</div>
+</section>
+<!-- 4. TRENDING DESTINATIONS BENTO GRID -->
+<section class="max-w-6xl mx-auto w-full px-6 mb-28">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
+<div>
+<p class="font-label-md text-label-md tracking-widest text-primary uppercase mb-2">Curated Escapes</p>
+<h2 class="font-headline-lg text-headline-lg text-on-surface font-display-hero">Trending destinations booked this week</h2>
+</div>
+<a class="font-title-md text-title-md text-primary hover:underline flex items-center gap-1 group" href="#">
+<span>Explore all 240+ retreats</span>
+<span class="material-symbols-outlined text-[18px] group-hover:translate-x-1 transition-transform">arrow_forward</span>
+</a>
+</div>
+<!-- Bento Grid -->
+<div class="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-4 gap-5 auto-rows-[280px]">
+<!-- Card 1: Bali (Large Bento, 2 cols, 2 rows) -->
+<div class="md:col-span-2 md:row-span-2 relative rounded-3xl overflow-hidden group shadow-xl bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Luxurious clifftop infinity swimming pool overlooking tropical ocean sunset in Bali Indonesia with lush palm greenery, private thatched cabanas and warm evening sky." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCne3FKEVxXvDQWSF_w_WvwqcYNXYmL14QZWVWU_-sqe6uWCz0yZ0WBDqNLMW96KmL6iTqrochdJSQA6UhEYOVFcFGBNJweR7_lS3OEK6OmxjCwvlepLO2IbJuXblzxZsx-pgaWEIz0wUj5DzC0Rcz-d1VEjrU2dIV5uMr3mSinl8ovXiLgsfbZtiHAKSPmbEVcCtGaPzrEFMi_FTm6bAOwsPNtQxSsapYq73CsWFiwcbZ86cbZZxhkKw"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim via-surface-dim/40 to-transparent"></div>
+<div class="absolute top-5 left-5 flex items-center gap-2">
+<span class="px-3 py-1 rounded-full bg-surface-container-high/80 backdrop-blur-md text-on-surface text-label-sm font-label-sm uppercase tracking-wider font-semibold">
+            Top Pick · Luxury Villas
+          </span>
+<span class="px-2.5 py-1 rounded-full bg-secondary-container/80 text-secondary text-label-sm font-label-sm font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]" style="font-variation-settings: 'FILL' 1;">star</span> 4.96
+          </span>
+</div>
+<div class="absolute bottom-6 left-6 right-6 flex items-end justify-between">
+<div>
+<p class="font-headline-md text-headline-md font-display-hero text-on-surface">Uluwatu &amp; Seminyak, Bali</p>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-sm mt-1">Clifftop ocean pools, private chef villas, and secluded coral beaches.</p>
+</div>
+<div class="text-right">
+<p class="font-label-sm text-label-sm text-on-surface-variant uppercase">Starting from</p>
+<p class="font-title-lg text-title-lg font-bold text-primary">₹34,999</p>
+<p class="font-label-sm text-label-sm text-on-surface-variant">per guest</p>
+</div>
+</div>
+</div>
+<!-- Card 2: Paris -->
+<div class="relative rounded-3xl overflow-hidden group shadow-xl bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Chic evening balcony view of the illuminated Eiffel Tower in Paris France with vintage Parisian stone architecture and warm street lanterns." src="https://lh3.googleusercontent.com/aida-public/AB6AXuATVOFdGKoxxFIghwG8QDW-YowsOn3lHlAZtWt3MGh8Q92HLSov_OUU6HoAcfXiJrXl8eQxHbzMU4cRjgwJILkhNT-NVYZecjDiXNrZspGAXexrEBrg_LPJxT_AoRQQngdPCqdfFiiN4Mws6RRTz15tzDoJVOnnv27ISfx-vREs6CkXW1hAscImo8KbBUajg-di3DNCC0o9I_QHBMzkyiYfrRQ2WzhEn5oS93LqF1lZomzuoxQWk-27bg"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim via-surface-dim/40 to-transparent"></div>
+<div class="absolute top-4 left-4">
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high/80 backdrop-blur-md text-on-surface text-label-sm font-label-sm font-medium">Romantic City</span>
+</div>
+<div class="absolute bottom-5 left-5 right-5 flex items-end justify-between">
+<div>
+<p class="font-title-lg text-title-lg font-display-hero text-on-surface">Paris, France</p>
+<p class="font-label-md text-label-md text-on-surface-variant">Haute gastronomy</p>
+</div>
+<div class="text-right">
+<p class="font-title-md text-title-md font-bold text-primary">₹52,400</p>
+</div>
+</div>
+</div>
+<!-- Card 3: Tokyo & Kyoto -->
+<div class="relative rounded-3xl overflow-hidden group shadow-xl bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Atmospheric wooden lantern-lit alley in Gion Kyoto with serene traditional Japanese ryokan architecture and tranquil evening ambiance." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAXPXGL8pSmbWFNZOn_gumyZRsQ6DBlF9LdZ--Mci5j9YiJi26jDrCYUrj_Z3ab7tiNU0CncnDBnbTE6TO8WmRZNM-NS64IiLGaKXE4FDEiapKzL_WA0acaXTifIa3joYvBjFo9liWcsTJj1FjtGHETl5QUwOjzGnvH0hDjLg4OETr_ea657CBRIG-37vLacfcfMctW9tClYsavOq7VcjbWhIKVrm4Pv8ZAIeWu5BDpgoO3OIZKCTKYnA"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim via-surface-dim/40 to-transparent"></div>
+<div class="absolute top-4 left-4">
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high/80 backdrop-blur-md text-on-surface text-label-sm font-label-sm font-medium">Culture &amp; Zen</span>
+</div>
+<div class="absolute bottom-5 left-5 right-5 flex items-end justify-between">
+<div>
+<p class="font-title-lg text-title-lg font-display-hero text-on-surface">Kyoto &amp; Tokyo</p>
+<p class="font-label-md text-label-md text-on-surface-variant">Michelin &amp; Ryokan</p>
+</div>
+<div class="text-right">
+<p class="font-title-md text-title-md font-bold text-primary">₹68,000</p>
+</div>
+</div>
+</div>
+<!-- Card 4: Maldives Overwater Villas -->
+<div class="relative rounded-3xl overflow-hidden group shadow-xl bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Turquoise shallow ocean lagoon with luxury overwater private bungalows connected by wooden jetty at sunset in Maldives." src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBLM7C4RbUEDtLAmPYvmot0E-S_LBRJzn805W30_Y6qUqzuptq_KhA9BawCY2grwyNjUKHjZcHdKmCFSssOiU1q3IoWroglwfLqFgUQtD8f9HsyU3cde7BLiwEnvHwa82Rk1ZGJtSsIK0sqo8LZkeU_kS3hN7OOJWo2xw07_HHEtmghBZVxljiCjGHK9S4Nu-Kc9CJ64PRZdJMH9zM-yWAt1VtqGrnwFq_WwjsT_7_MtNL_wdqgzs21g"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim via-surface-dim/40 to-transparent"></div>
+<div class="absolute top-4 left-4">
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high/80 backdrop-blur-md text-on-surface text-label-sm font-label-sm font-medium">Exclusive Atoll</span>
+</div>
+<div class="absolute bottom-5 left-5 right-5 flex items-end justify-between">
+<div>
+<p class="font-title-lg text-title-lg font-display-hero text-on-surface">Maldives</p>
+<p class="font-label-md text-label-md text-on-surface-variant">Seaplane transfers</p>
+</div>
+<div class="text-right">
+<p class="font-title-md text-title-md font-bold text-primary">₹78,500</p>
+</div>
+</div>
+</div>
+<!-- Card 5: Dubai -->
+<div class="relative rounded-3xl overflow-hidden group shadow-xl bg-surface-container">
+<img class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-700" data-alt="Futuristic Dubai Marina skyline at twilight illuminated with purple and golden lights reflected over calm marina waters with luxury yachts." src="https://lh3.googleusercontent.com/aida-public/AB6AXuCEikVLc-69J22-1YDlin01xS-UUx06a2JvSVqKqzDcaUgV0PxzQwxbigUeo_dAY7o6dRL7U4L7N-0TYJctSTy8-VKwQxgJ6ntytjtURfHM074r8AViPn2gxbfAcIloaYJpVuRSE6tqX1UlXovhf-V1nuFlQFNEaMDbYSG7N568v7XlgcmPM57_2DmMBWeR6jcEdRqB6hMxvkhrivT1FuTVu6x7cWpNctnGC9krRHK94q1PK-mplXSD9A"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim via-surface-dim/40 to-transparent"></div>
+<div class="absolute top-4 left-4">
+<span class="px-2.5 py-1 rounded-full bg-surface-container-high/80 backdrop-blur-md text-on-surface text-label-sm font-label-sm font-medium">Skyline &amp; Oasis</span>
+</div>
+<div class="absolute bottom-5 left-5 right-5 flex items-end justify-between">
+<div>
+<p class="font-title-lg text-title-lg font-display-hero text-on-surface">Dubai, UAE</p>
+<p class="font-label-md text-label-md text-on-surface-variant">Desert &amp; Glamour</p>
+</div>
+<div class="text-right">
+<p class="font-title-md text-title-md font-bold text-primary">₹28,900</p>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 5. HOW AI PLANS YOUR TRIP -->
+<section class="max-w-6xl mx-auto w-full px-6 mb-28">
+<div class="text-center max-w-2xl mx-auto mb-16">
+<p class="font-label-md text-label-md tracking-widest text-primary uppercase mb-2">Autonomous Concierge</p>
+<h2 class="font-headline-lg text-headline-lg font-display-hero text-on-surface mb-4">How WanderAI crafts perfection</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant">From casual prompt to seamless booking in under three minutes.</p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-6 relative">
+<!-- Step 1 -->
+<div class="p-8 rounded-3xl bg-surface-container-low shadow-lg relative flex flex-col justify-between group hover:bg-surface-container transition-colors">
+<div>
+<div class="w-14 h-14 rounded-2xl bg-surface-container-high flex items-center justify-center text-primary mb-6 shadow-sm group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[30px]" style="font-variation-settings: 'FILL' 1;">chat</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary font-bold">Step 01</span>
+<h3 class="font-headline-sm text-headline-sm font-display-hero text-on-surface mt-2 mb-3">Speak in your natural words</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Describe your preferred atmosphere, pace, dining restrictions, and budget boundaries. No rigid dropdown forms.
+          </p>
+</div>
+<div class="mt-6 pt-4 border-t border-white/5 flex items-center gap-2 text-label-md text-label-md text-primary font-medium">
+<span class="material-symbols-outlined text-[16px]">mic</span>
+<span>Voice or Text prompt ready</span>
+</div>
+</div>
+<!-- Step 2 -->
+<div class="p-8 rounded-3xl bg-surface-container-low shadow-lg relative flex flex-col justify-between group hover:bg-surface-container transition-colors">
+<div>
+<div class="w-14 h-14 rounded-2xl bg-surface-container-high flex items-center justify-center text-secondary mb-6 shadow-sm group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[30px]" style="font-variation-settings: 'FILL' 1;">neurology</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-secondary font-bold">Step 02</span>
+<h3 class="font-headline-sm text-headline-sm font-display-hero text-on-surface mt-2 mb-3">Sovereign Neural Optimization</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Our private agent evaluates over 14 million airline fare matrixes, boutique hotel availability, and local weather patterns in 2.4s.
+          </p>
+</div>
+<div class="mt-6 pt-4 border-t border-white/5 flex items-center gap-2 text-label-md text-label-md text-secondary font-medium">
+<span class="material-symbols-outlined text-[16px]">speed</span>
+<span>Sub-second multi-parameter sync</span>
+</div>
+</div>
+<!-- Step 3 -->
+<div class="p-8 rounded-3xl bg-surface-container-low shadow-lg relative flex flex-col justify-between group hover:bg-surface-container transition-colors">
+<div>
+<div class="w-14 h-14 rounded-2xl bg-surface-container-high flex items-center justify-center text-primary flex-shrink-0 text-primary mb-6 shadow-sm group-hover:scale-110 transition-transform">
+<span class="material-symbols-outlined text-[30px]" style="font-variation-settings: 'FILL' 1;">check_circle</span>
+</div>
+<span class="font-label-sm text-label-sm uppercase tracking-widest text-primary font-bold">Step 03</span>
+<h3 class="font-headline-sm text-headline-sm font-display-hero text-on-surface mt-2 mb-3">1-Click Universal Checkout</h3>
+<p class="font-body-md text-body-md text-on-surface-variant leading-relaxed">
+            Review your dynamic day-by-day itinerary with verified seat locks, room upgrades, and digital lounge passes with a single tap.
+          </p>
+</div>
+<div class="mt-6 pt-4 border-t border-white/5 flex items-center gap-2 text-label-md text-label-md text-primary font-medium">
+<span class="material-symbols-outlined text-[16px]">lock</span>
+<span>Apple Pay &amp; Sovereign escrow</span>
+</div>
+</div>
+</div>
+</section>
+<!-- 6. FEATURED AI ITINERARY (Live Day-by-Day Timeline & Telemetry) -->
+<section class="max-w-6xl mx-auto w-full px-6 mb-28">
+<div class="rounded-3xl bg-surface-container-low p-6 lg:p-10 shadow-2xl">
+<!-- Section Header -->
+<div class="flex flex-col lg:flex-row lg:items-center justify-between gap-4 mb-10 pb-6 border-b border-white/5">
+<div>
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 text-primary font-label-md text-label-md uppercase font-semibold mb-2">
+<span>Live Sample Generation</span>
+</div>
+<h2 class="font-headline-lg text-headline-lg font-display-hero text-on-surface">7-Day Bali Luxury &amp; Coastal Escape</h2>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">Generated for 2 travelers · Oct 14 – 21 · AI optimization score: 98.7%</p>
+</div>
+<div class="flex items-center gap-3">
+<button class="px-5 py-2.5 rounded-full bg-surface-container-high hover:bg-surface-bright text-on-surface font-title-md text-title-md transition-colors flex items-center gap-2" type="button">
+<span class="material-symbols-outlined text-[18px]">share</span>
+<span>Export PDF</span>
+</button>
+<button class="px-6 py-2.5 rounded-full bg-gradient-to-r from-primary to-primary-container text-on-primary font-title-md text-title-md font-semibold hover:shadow-[0_0_20px_rgba(71,241,228,0.4)] transition-all flex items-center gap-2" type="button">
+<span class="material-symbols-outlined text-[18px]">bookmark</span>
+<span>Save to Account</span>
+</button>
+</div>
+</div>
+<!-- Main Layout: Timeline Left + Telemetry Right -->
+<div class="grid grid-cols-1 lg:grid-cols-12 gap-10">
+<!-- Left: Day-by-Day Timeline Nodes (7 cols) -->
+<div class="lg:col-span-7 space-y-6">
+<!-- Day 1-2 -->
+<div class="flex gap-4 group">
+<div class="flex flex-col items-center">
+<div class="w-8 h-8 rounded-full bg-primary/20 text-primary flex items-center justify-center font-bold text-label-sm shadow-[0_0_12px_rgba(71,241,228,0.3)]">
+                1-2
+              </div>
+<div class="w-0.5 h-full bg-primary/25 mt-2"></div>
+</div>
+<div class="flex-1 pb-6">
+<div class="p-5 rounded-2xl bg-surface-container shadow-md">
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-semibold">Seminyak &amp; Petitenget</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Arrival &amp; Sunset</span>
+</div>
+<h4 class="font-title-lg text-title-lg font-bold text-on-surface">Private Villa Arrival &amp; Sunset Beach Club</h4>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+                  Chauffeured EV transfer from Ngurah Rai to The Seminyak Resort. VIP beachside cabana reservation at The Sunset Bar with curated Moët cocktail pairing.
+                </p>
+<div class="mt-4 rounded-xl overflow-hidden h-36 relative">
+<img class="w-full h-full object-cover" data-alt="Lively yet luxurious beach lounge club at sunset in Seminyak Bali with outdoor wicker daybeds, pool, and couples enjoying drinks." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDpjEKVlVx4_a9liJ-xGzkn9UC-63eI_dC1tINx4wfgPLRqADJKLucXMNJwhnLsxBJoXObIOM7fuw3z2d_ySzBbPPDI4oHUwOtNBX8aG-PtSyRssQFe5x3Kt_yIbZErr8QV2CJH16qZLwApfPpmWaXzYNPpwm4uDslAvhT_QNjrfYAaToiKX1j9pEPIxvCHfEBNEL9TWMan8L1dl2w73fFBjyKh2j_XhrjdKd1XyX7o6pDopmH7ElJ7eQ"/>
+<div class="absolute inset-0 bg-gradient-to-t from-surface-dim/80 to-transparent"></div>
+<div class="absolute bottom-3 left-3 flex items-center gap-2">
+<span class="px-2 py-0.5 rounded bg-surface/80 text-label-sm text-label-sm text-on-surface font-semibold">VIP Daybed Reserved</span>
+<span class="text-label-sm text-label-sm text-on-surface-variant">Table #14 Oceanfront</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Day 3-4 -->
+<div class="flex gap-4 group">
+<div class="flex flex-col items-center">
+<div class="w-8 h-8 rounded-full bg-secondary-container text-secondary flex items-center justify-center font-bold text-label-sm shadow-[0_0_12px_rgba(255,180,168,0.3)]">
+                3-4
+              </div>
+<div class="w-0.5 h-full bg-secondary/25 mt-2"></div>
+</div>
+<div class="flex-1 pb-6">
+<div class="p-5 rounded-2xl bg-surface-container shadow-md">
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-secondary font-semibold">Uluwatu Cliffs</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Coastline &amp; Culture</span>
+</div>
+<h4 class="font-title-lg text-title-lg font-bold text-on-surface">Clifftop Ocean Sanctuary &amp; Fire Dance</h4>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+                  Private transfer to Uluwatu clifftops. Sunset infinity pool lounging followed by front-row seating at the ancient Kecak Fire Dance performance overlooking the crashing Indian Ocean.
+                </p>
+</div>
+</div>
+</div>
+<!-- Day 5-7 -->
+<div class="flex gap-4 group">
+<div class="flex flex-col items-center">
+<div class="w-8 h-8 rounded-full bg-primary/20 text-primary flex items-center justify-center font-bold text-label-sm shadow-[0_0_12px_rgba(71,241,228,0.3)]">
+                5-7
+              </div>
+</div>
+<div class="flex-1">
+<div class="p-5 rounded-2xl bg-surface-container shadow-md">
+<div class="flex items-center justify-between mb-2">
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-primary font-semibold">Ubud Rainforest</span>
+<span class="font-label-sm text-label-sm text-on-surface-variant">Wellness &amp; Estate</span>
+</div>
+<h4 class="font-title-lg text-title-lg font-bold text-on-surface">Ubud Valley Sanctuary, Tea Estate &amp; Sound Healing</h4>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2 leading-relaxed">
+                  Morning mist yoga over the river valley. Private culinary tasting at Kubu Mandapa, Tegalalang valley walk, and sovereign departure escort to airport.
+                </p>
+</div>
+</div>
+</div>
+</div>
+<!-- Right: Telemetry & Budget Breakdown Card (5 cols) -->
+<div class="lg:col-span-5 flex flex-col gap-6">
+<!-- Budget Breakdown -->
+<div class="p-6 rounded-2xl bg-surface-container shadow-md">
+<h4 class="font-title-lg text-title-lg font-bold text-on-surface mb-4 flex items-center justify-between">
+<span>Financial Allocation</span>
+<span class="px-2.5 py-0.5 rounded-full bg-primary/10 text-primary font-label-sm text-label-sm font-semibold">
+                Saved ₹11,200
+              </span>
+</h4>
+<!-- Donut Visual SVG Chart -->
+<div class="flex items-center justify-center py-4">
+<div class="relative w-44 h-44 flex items-center justify-center">
+<svg class="w-full h-full transform -rotate-90" viewbox="0 0 36 36">
+<!-- Background Circle -->
+<path class="text-surface-variant" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-width="3.5"></path>
+<!-- Flights (34%) -->
+<path class="text-primary" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="34, 100" stroke-linecap="round" stroke-width="3.8"></path>
+<!-- Stays (46%) -->
+<path class="text-secondary" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="46, 100" stroke-dashoffset="-34" stroke-linecap="round" stroke-width="3.8"></path>
+<!-- Dining (20%) -->
+<path class="text-tertiary" d="M18 2.0845 a 15.9155 15.9155 0 0 1 0 31.831 a 15.9155 15.9155 0 0 1 0 -31.831" fill="none" stroke="currentColor" stroke-dasharray="20, 100" stroke-dashoffset="-80" stroke-linecap="round" stroke-width="3.8"></path>
+</svg>
+<div class="absolute flex flex-col items-center text-center">
+<span class="font-headline-sm text-headline-sm font-display-hero text-on-surface">₹1,42,800</span>
+<span class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">All-Inclusive Total</span>
+</div>
+</div>
+</div>
+<!-- Breakdown Legend -->
+<div class="space-y-3 mt-4 pt-4 border-t border-white/5">
+<div class="flex items-center justify-between font-body-md text-body-md">
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-primary"></span>
+<span class="text-on-surface">Flights &amp; Air Transfers (34%)</span>
+</div>
+<span class="font-semibold text-on-surface">₹48,000</span>
+</div>
+<div class="flex items-center justify-between font-body-md text-body-md">
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-secondary"></span>
+<span class="text-on-surface">Boutique Villas &amp; Stays (46%)</span>
+</div>
+<span class="font-semibold text-on-surface">₹64,000</span>
+</div>
+<div class="flex items-center justify-between font-body-md text-body-md">
+<div class="flex items-center gap-2">
+<span class="w-3 h-3 rounded-full bg-tertiary"></span>
+<span class="text-on-surface">Curated Dining &amp; Access (20%)</span>
+</div>
+<span class="font-semibold text-on-surface">₹30,800</span>
+</div>
+</div>
+</div>
+<!-- Location Telemetry Map Widget -->
+<div class="p-5 rounded-2xl bg-surface-container shadow-md">
+<div class="flex items-center justify-between mb-3">
+<span class="font-title-md text-title-md font-bold text-on-surface">Interactive Route Telemetry</span>
+<span class="material-symbols-outlined text-primary text-[18px]">satellite_alt</span>
+</div>
+<div class="w-full h-40 bg-cover bg-center rounded-xl relative overflow-hidden flex items-end p-3" data-location="Bali, Indonesia" style="background-image: url('https://lh3.googleusercontent.com/aida-public/AB6AXuC_aLyhQQnkgkXEpyfcxAro4S78JvIfW63ZOYJGxZ9sOc22-LNelyFi2w02nX1oDEznuqbgIf0w4F7XAwLbYOjmsDoSecUOEIlnfimqSvTAcU6S6NxqQAY9-7QqBu-RoD50w2n_WTJAIR6Gs7iwa78f8SWTN9EfWX0Mpk1ngeMA5aO4wbfScCGD8Y6OR-BEK7QXNOs-XRDqrz1t_XGUf9TW39vO10624rNY3ZkBq2LiYUO-v-_LUYQGOQ')">
+<div class="p-2.5 rounded-lg bg-surface-dim/80 backdrop-blur-md w-full flex items-center justify-between text-label-md text-label-md">
+<span class="text-on-surface">DPS ➔ Seminyak ➔ Uluwatu ➔ Ubud</span>
+<span class="text-primary font-semibold">142 km optimized</span>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- 7. BEST DEALS (Flight & Hotel Deal Cards with Discount Badges) -->
+<section class="max-w-6xl mx-auto w-full px-6 mb-28">
+<div class="flex flex-col md:flex-row md:items-end justify-between gap-4 mb-10">
+<div>
+<p class="font-label-md text-label-md tracking-widest text-secondary uppercase mb-2">Live AI Radar</p>
+<h2 class="font-headline-lg text-headline-lg font-display-hero text-on-surface">Real-Time Unlocked Privileges</h2>
+</div>
+<p class="font-body-md text-body-md text-on-surface-variant max-w-xs">
+        Fares refreshed every 90 seconds from sovereign inventory nodes.
+      </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+<!-- Deal 1 -->
+<div class="p-5 rounded-3xl bg-surface-container-low hover:bg-surface-container transition-all shadow-lg flex flex-col justify-between group">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="px-2.5 py-1 rounded-full bg-secondary-container/60 text-secondary text-label-sm font-label-sm font-bold">
+              28% OFF FARE LOCK
+            </span>
+<span class="material-symbols-outlined text-primary text-[20px]">airlines</span>
+</div>
+<p class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Singapore Airlines</p>
+<h4 class="font-title-lg text-title-lg font-bold text-on-surface mt-1">DEL ➔ DPS</h4>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">Direct Boeing 787-10 · Priority Check-in</p>
+</div>
+<div class="mt-6 pt-4 border-t border-white/5 flex items-center justify-between">
+<div>
+<span class="line-through text-on-surface-variant font-label-md text-label-md">₹33,500</span>
+<p class="font-headline-sm text-headline-sm font-display-hero text-primary">₹24,000</p>
+</div>
+<button class="w-10 h-10 rounded-full bg-primary/10 hover:bg-primary text-primary hover:text-on-primary transition-all flex items-center justify-center" type="button">
+<span class="material-symbols-outlined text-[18px]">east</span>
+</button>
+</div>
+</div>
+<!-- Deal 2 -->
+<div class="p-5 rounded-3xl bg-surface-container-low hover:bg-surface-container transition-all shadow-lg flex flex-col justify-between group">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="px-2.5 py-1 rounded-full bg-secondary-container/60 text-secondary text-label-sm font-label-sm font-bold">
+              20% OFF PREMIUM
+            </span>
+<span class="material-symbols-outlined text-primary text-[20px]">flight</span>
+</div>
+<p class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Emirates Fleet</p>
+<h4 class="font-title-lg text-title-lg font-bold text-on-surface mt-1">BOM ➔ DXB</h4>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">Airbus A380 Superjumbo · Lounge Access</p>
+</div>
+<div class="mt-6 pt-4 border-t border-white/5 flex items-center justify-between">
+<div>
+<span class="line-through text-on-surface-variant font-label-md text-label-md">₹23,200</span>
+<p class="font-headline-sm text-headline-sm font-display-hero text-primary">₹18,500</p>
+</div>
+<button class="w-10 h-10 rounded-full bg-primary/10 hover:bg-primary text-primary hover:text-on-primary transition-all flex items-center justify-center" type="button">
+<span class="material-symbols-outlined text-[18px]">east</span>
+</button>
+</div>
+</div>
+<!-- Deal 3 -->
+<div class="p-5 rounded-3xl bg-surface-container-low hover:bg-surface-container transition-all shadow-lg flex flex-col justify-between group">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="px-2.5 py-1 rounded-full bg-secondary-container/60 text-secondary text-label-sm font-label-sm font-bold">
+              35% OFF SUITE
+            </span>
+<span class="material-symbols-outlined text-secondary text-[20px]">villa</span>
+</div>
+<p class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">5-Star Luxury Resort</p>
+<h4 class="font-title-lg text-title-lg font-bold text-on-surface mt-1 truncate">The Seminyak Resort</h4>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">Oceanfront Pool Suite · Daily Breakfast</p>
+</div>
+<div class="mt-6 pt-4 border-t border-white/5 flex items-center justify-between">
+<div>
+<span class="line-through text-on-surface-variant font-label-md text-label-md">₹19,800</span>
+<p class="font-headline-sm text-headline-sm font-display-hero text-primary">₹12,800 <span class="text-label-sm text-label-sm text-on-surface-variant font-normal">/ night</span></p>
+</div>
+<button class="w-10 h-10 rounded-full bg-primary/10 hover:bg-primary text-primary hover:text-on-primary transition-all flex items-center justify-center" type="button">
+<span class="material-symbols-outlined text-[18px]">east</span>
+</button>
+</div>
+</div>
+<!-- Deal 4 -->
+<div class="p-5 rounded-3xl bg-surface-container-low hover:bg-surface-container transition-all shadow-lg flex flex-col justify-between group">
+<div>
+<div class="flex items-center justify-between mb-4">
+<span class="px-2.5 py-1 rounded-full bg-secondary-container/60 text-secondary text-label-sm font-label-sm font-bold">
+              40% EARLY BIRD
+            </span>
+<span class="material-symbols-outlined text-secondary text-[20px]">spa</span>
+</div>
+<p class="font-label-sm text-label-sm uppercase tracking-wider text-on-surface-variant">Fari Islands</p>
+<h4 class="font-title-lg text-title-lg font-bold text-on-surface mt-1 truncate">Ritz-Carlton Maldives</h4>
+<p class="font-body-md text-body-md text-on-surface-variant mt-1">Water Villa with Private Plunge Pool</p>
+</div>
+<div class="mt-6 pt-4 border-t border-white/5 flex items-center justify-between">
+<div>
+<span class="line-through text-on-surface-variant font-label-md text-label-md">₹1,15,000</span>
+<p class="font-headline-sm text-headline-sm font-display-hero text-primary">₹69,000 <span class="text-label-sm text-label-sm text-on-surface-variant font-normal">/ night</span></p>
+</div>
+<button class="w-10 h-10 rounded-full bg-primary/10 hover:bg-primary text-primary hover:text-on-primary transition-all flex items-center justify-center" type="button">
+<span class="material-symbols-outlined text-[18px]">east</span>
+</button>
+</div>
+</div>
+</div>
+</section>
+<!-- 8. HIGH-END CLIENT TESTIMONIALS -->
+<section class="max-w-6xl mx-auto w-full px-6 mb-28">
+<div class="text-center max-w-xl mx-auto mb-14">
+<p class="font-label-md text-label-md tracking-widest text-primary uppercase mb-2">Private Client Ledger</p>
+<h2 class="font-headline-lg text-headline-lg font-display-hero text-on-surface">Loved by 2,000,000+ travelers</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-8">
+<!-- Testimonial 1 -->
+<div class="p-8 rounded-3xl bg-surface-container-low shadow-lg flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-1 text-secondary mb-5">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<blockquote class="font-headline-sm text-headline-sm font-display-hero text-on-surface leading-snug">
+            “WanderAI saved us over ₹35,000 on boutique Seminyak villas and generated a bespoke timeline we synced straight to our Apple Calendars. Utterly flawless execution.”
+          </blockquote>
+</div>
+<div class="mt-8 pt-6 border-t border-white/5 flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-primary/20 text-primary flex items-center justify-center font-bold">
+              SM
+            </div>
+<div>
+<p class="font-title-md text-title-md font-bold text-on-surface">Sarah &amp; Liam M.</p>
+<p class="font-label-md text-label-md text-on-surface-variant">Couples Retreat · Bali, Indonesia</p>
+</div>
+</div>
+<span class="px-3 py-1 rounded-full bg-primary/10 text-primary text-label-sm font-label-sm font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">verified</span> Verified Journey
+          </span>
+</div>
+</div>
+<!-- Testimonial 2 -->
+<div class="p-8 rounded-3xl bg-surface-container-low shadow-lg flex flex-col justify-between">
+<div>
+<div class="flex items-center gap-1 text-secondary mb-5">
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+<span class="material-symbols-outlined text-[20px]" style="font-variation-settings: 'FILL' 1;">star</span>
+</div>
+<blockquote class="font-headline-sm text-headline-sm font-display-hero text-on-surface leading-snug">
+            “The predictive airfare algorithm is pure sorcery. It flagged a fare drop for my Tokyo flight 48 hours prior and handled my Michelin reservation automatically.”
+          </blockquote>
+</div>
+<div class="mt-8 pt-6 border-t border-white/5 flex items-center justify-between">
+<div class="flex items-center gap-3">
+<div class="w-10 h-10 rounded-full bg-secondary-container text-secondary flex items-center justify-center font-bold">
+              DK
+            </div>
+<div>
+<p class="font-title-md text-title-md font-bold text-on-surface">David K.</p>
+<p class="font-label-md text-label-md text-on-surface-variant">Solo Explorer · Tokyo &amp; Kyoto</p>
+</div>
+</div>
+<span class="px-3 py-1 rounded-full bg-primary/10 text-primary text-label-sm font-label-sm font-semibold flex items-center gap-1">
+<span class="material-symbols-outlined text-[14px]">verified</span> Verified Journey
+          </span>
+</div>
+</div>
+</div>
+</section>
+<!-- 9. IMMERSIVE CALL-TO-ACTION BANNER -->
+<section class="max-w-6xl mx-auto w-full px-6 mb-24">
+<div class="relative rounded-3xl overflow-hidden p-10 lg:p-16 text-center bg-surface-container shadow-2xl">
+<!-- Glow ambient decorative orbs -->
+<div class="absolute -top-24 -left-24 w-80 h-80 rounded-full bg-primary/15 blur-3xl pointer-events-none"></div>
+<div class="absolute -bottom-24 -right-24 w-80 h-80 rounded-full bg-secondary/15 blur-3xl pointer-events-none"></div>
+<div class="relative z-10 max-w-3xl mx-auto flex flex-col items-center">
+<span class="px-4 py-1.5 rounded-full bg-surface-container-high/80 text-primary text-label-sm font-label-sm uppercase tracking-wider font-semibold mb-6">
+          Sovereign Travel Intelligence
+        </span>
+<h2 class="font-headline-lg text-headline-lg font-display-hero text-on-surface mb-5 leading-tight">
+          Ready to experience frictionless travel intelligence?
+        </h2>
+<p class="font-title-lg text-title-lg text-on-surface-variant mb-10 max-w-xl font-normal leading-relaxed">
+          Join over 2 million globetrotters who curate deeper, travel higher, and save on every single itinerary.
+        </p>
+<div class="flex flex-col sm:flex-row items-center gap-4 w-full sm:w-auto">
+<button class="w-full sm:w-auto px-9 py-4 rounded-full bg-gradient-to-r from-secondary-container to-secondary text-on-background font-title-md text-title-md font-semibold shadow-lg hover:shadow-[0_0_32px_rgba(255,180,168,0.5)] transition-all cursor-pointer flex items-center justify-center gap-2" onclick="triggerAIPlan()" type="button">
+<span>Start Planning Free</span>
+<span class="material-symbols-outlined text-[18px]">arrow_forward</span>
+</button>
+<button class="w-full sm:w-auto px-8 py-4 rounded-full bg-surface-container-high hover:bg-surface-bright text-on-surface font-title-md text-title-md transition-colors cursor-pointer" type="button">
+            Speak to a Concierge
+          </button>
+</div>
+</div>
+</div>
+</section>
+<!-- Interactive Logic -->
+<script>
+    function fillPrompt(text) {
+      const input = document.getElementById('hero-ai-input');
+      if (input) {
+        input.value = text;
+        input.focus();
+      }
+    }
+
+    function triggerAIPlan() {
+      const input = document.getElementById('hero-ai-input');
+      const val = input ? input.value.trim() : '';
+      if (!val) {
+        if (input) {
+          input.value = '7 days in Bali with luxury beach clubs and sunset villas under ₹60,000';
+          input.focus();
+        }
+      } else {
+        const btn = event.currentTarget;
+        const originalHTML = btn.innerHTML;
+        btn.innerHTML = `<span class="material-symbols-outlined text-[18px] animate-spin">progress_activity</span><span>Orchestrating...</span>`;
+        setTimeout(() => {
+          btn.innerHTML = originalHTML;
+          window.location.hash = 'ai-planner';
+        }, 1200);
+      }
+    }
+  </script>
+</div></main><footer class="w-full bg-surface-container-lowest border-t border-white/10 pt-16 pb-12"><div class="max-w-7xl mx-auto px-6 lg:px-12"><div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-10 mb-16"><div class="lg:col-span-2 space-y-4"><div class="flex items-center gap-3"><img alt="WanderAI Luxury Brand Logo" class="h-8 w-auto object-contain" src="https://lh3.googleusercontent.com/aida/AEtjO1WHsDMfbG19WEnqNC7FEKNKiYKFqIpaleoN2EDn_jOCWsfxi917v4Ijhq-clCXgCLpKNBFHNxAfg_1SP3AKLXsOmoNcbgiZd6akpZn4bbi_K_qjawLqp2_5lFOGviC_lp1PO4hgsLNLytZnP1KAY2pH3hX3H_udFSYs33yDZO148qitGYL5Jgn-nPmmLu8ey-Ru4l4TURRACIvnKveHBNfXEg1S8ErlVmL1if7OUOHTdMsLLr6EJCYV5tA-"/><span class="font-headline-sm text-headline-sm text-on-surface font-display-hero">WanderAI</span></div><p class="font-body-md text-body-md text-on-surface-variant max-w-sm leading-relaxed">Curating the world's most extraordinary journeys with sovereign AI intelligence.</p><div class="pt-2 flex items-center gap-3"><div class="px-4 py-2 rounded-xl bg-surface-container-low border border-white/10 flex items-center gap-3 hover:border-primary/40 transition-colors cursor-pointer"><span class="material-symbols-outlined text-primary text-[24px]">phone_iphone</span><div class="text-left"><p class="text-label-sm font-label-sm text-on-surface-variant">Download on the</p><p class="text-title-md font-title-md text-on-surface font-semibold">App Store</p></div></div><div class="px-4 py-2 rounded-xl bg-surface-container-low border border-white/10 flex items-center gap-3 hover:border-primary/40 transition-colors cursor-pointer"><span class="material-symbols-outlined text-primary text-[24px]">play_arrow</span><div class="text-left"><p class="text-label-sm font-label-sm text-on-surface-variant">Get it on</p><p class="text-title-md font-title-md text-on-surface font-semibold">Google Play</p></div></div></div></div><div><p class="font-title-md text-title-md text-on-surface mb-4 font-semibold">Explore Destinations</p><ul class="space-y-2.5 font-body-md text-body-md text-on-surface-variant"><li><a class="hover:text-primary transition-colors" href="#">Amalfi &amp; Capri</a></li><li><a class="hover:text-primary transition-colors" href="#">Kyoto Ryokans</a></li><li><a class="hover:text-primary transition-colors" href="#">Swiss Alpine Chalets</a></li><li><a class="hover:text-primary transition-colors" href="#">Reykjavik Northern Lights</a></li><li><a class="hover:text-primary transition-colors" href="#">Serengeti Private Safari</a></li></ul></div><div><p class="font-title-md text-title-md text-on-surface mb-4 font-semibold">Travel Products</p><ul class="space-y-2.5 font-body-md text-body-md text-on-surface-variant"><li><a class="hover:text-primary transition-colors" href="#">Private Aviation</a></li><li><a class="hover:text-primary transition-colors" href="#">Michelin Key Stays</a></li><li><a class="hover:text-primary transition-colors" href="#">Superyacht Charters</a></li><li><a class="hover:text-primary transition-colors" href="#">Bespoke Rail Expeditions</a></li><li><a class="hover:text-primary transition-colors" href="#">Helicopter Transfers</a></li></ul></div><div><p class="font-title-md text-title-md text-on-surface mb-4 font-semibold">Intelligence AI</p><ul class="space-y-2.5 font-body-md text-body-md text-on-surface-variant"><li><a class="hover:text-primary transition-colors" href="#">Predictive Itineraries</a></li><li><a class="hover:text-primary transition-colors" href="#">Biometric Concierge</a></li><li><a class="hover:text-primary transition-colors" href="#">Atmosphere Radar</a></li><li><a class="hover:text-primary transition-colors" href="#">Micro-Climate Routing</a></li><li><a class="hover:text-primary transition-colors" href="#">Private Dispatch API</a></li></ul></div><div><p class="font-title-md text-title-md text-on-surface mb-4 font-semibold">Company &amp; Trust</p><ul class="space-y-2.5 font-body-md text-body-md text-on-surface-variant"><li><a class="hover:text-primary transition-colors" href="#">About WanderAI</a></li><li><a class="hover:text-primary transition-colors" href="#">Private Client Office</a></li><li><a class="hover:text-primary transition-colors" href="#">Sustainability Charter</a></li><li><a class="hover:text-primary transition-colors" href="#">Press &amp; Editorial</a></li><li><a class="hover:text-primary transition-colors" href="#">Security &amp; Encryption</a></li></ul></div></div><div class="pt-8 border-t border-white/5 flex flex-col md:flex-row items-center justify-between gap-6"><div class="flex items-center gap-6"><button class="flex items-center gap-2 text-on-surface-variant hover:text-on-surface text-body-md font-body-md" type="button"><span class="material-symbols-outlined text-[18px] text-primary">language</span><span>United States (USD $)</span></button><div class="flex items-center gap-4 text-on-surface-variant"><a class="hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">share</span></a><a class="hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">travel_explore</span></a><a class="hover:text-primary transition-colors" href="#"><span class="material-symbols-outlined text-[20px]">forum</span></a></div></div><p class="font-body-md text-body-md text-on-surface-variant text-center md:text-right">© 2025 WanderAI Inc. All rights reserved.</p></div></div></footer></body></html>
